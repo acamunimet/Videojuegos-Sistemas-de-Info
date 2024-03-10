@@ -6,7 +6,7 @@ export default function Landing_Page() {
   return (
     <div>
       <div id="TituloLandingPage">
-        <h1>Bienvendo!!</h1>
+        <h1>¡¡Bienvenido!!</h1>
       </div>
 
       <div id="seccion1_LandingPage">
