@@ -1,0 +1,14 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#seccion1_RegisterPage-form {
+  display: grid;
+  justify-content: center;
+}
+
+#RegisterPage_submit_button {
+  display: flex;
+  justify-content: center;
+}

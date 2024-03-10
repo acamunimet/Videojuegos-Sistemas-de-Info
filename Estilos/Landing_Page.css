@@ -1,0 +1,17 @@
+
+
+#TituloLandingPage {
+    display: flex;
+    justify-content: center;
+}
+
+
+#seccion1_LandingPage {
+    display: flex;
+    justify-content: center;
+}
+
+#seccion2_LandingPage {
+    display: flex;
+    justify-content: space-around;
+}
