@@ -1,0 +1,17 @@
+#TituloLoginPage {
+    display: flex;
+    justify-content: center;
+}
+
+#seccion1_LoginPage-form {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+#LoginPage_submit_button {
+    display: flex;
+    justify-content: center;
+}
+
+
