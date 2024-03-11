@@ -1,5 +1,4 @@
-import Button from "../Componentes/Button";
-import "/Estilos/Landing_Page.css"
+import "../Estilos/Landing_Page.css"
 import {Link} from "react-router-dom";
 
 export default function Landing_Page() {
@@ -15,10 +14,10 @@ export default function Landing_Page() {
 
       <div id="seccion2_LandingPage">
         <div>
-          <Button to='/login'>Iniciar sesion</Button>
+          <button to='/login'>Iniciar sesion</button>
         </div>
         <div>
-          <Button to='/register' >Registrarse</Button>
+          <button to='/register' >Registrarse</button>
         </div>
       </div>
     </div>

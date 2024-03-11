@@ -1,5 +1,4 @@
 import '/Estilos/RegisterPage.css';
-import Button from "../Componentes/Button";
 import InputField from '../Componentes/InputField';
 
 
@@ -17,10 +16,10 @@ export default function RegisterPage() {
       </div>
 
       <div id="RegisterPage_submit_button">
-        <Button to='/home'>Enviar</Button>
+        <button to='/home'>Enviar</button>
       </div>
 
-      <Button to="/">Volver</Button>
+      <button to="/">Volver</button>
     </div>
   );
 }

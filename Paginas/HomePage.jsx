@@ -1,21 +1,21 @@
-import Button from "../Componentes/Button";
+
 
 export default function HomePage() {
     return (
         <>
         <div>
             <h1>HOMEPAGE / LISTA DE CLUBES</h1>
-            <Button to='/'>Volver</Button>
+            <button to='/'>Volver</button>
 
         </div>
         <div>
-            <Button to='/profile'>Perfil</Button>
+            <button to='/profile'>Perfil</button>
         </div>
         <div>
-            <Button to='/club'>Club</Button>
+            <button to='/club'>Club</button>
         </div>
         <div>
-            <Button to='/games'>Juegos</Button>
+            <button to='/games'>Juegos</button>
         </div>
         </>
         
