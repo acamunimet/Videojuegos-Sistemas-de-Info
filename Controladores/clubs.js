@@ -11,4 +11,5 @@ export async function getClubs(){
     const clubCollection = collection(db,"clubs");
     const clubsSnapshot = await getDocs(clubCollection);            /* Devuelve la coleccion de clubes */
     const clubs = clubsSnapshot.docs.map((doc) => doc.data());
+    return clubs;
 }
