@@ -1,10 +1,10 @@
 import '/Estilos/RegisterPage.css';
 import InputField from '../Componentes/InputField';
-
+import { Link } from 'react-router-dom';
 
 export default function RegisterPage() {
   return (
-    <div>
+    <div id='RegisterPage'>
       <div>
         <h1>REGISTRO</h1>
       </div>
@@ -16,10 +16,13 @@ export default function RegisterPage() {
       </div>
 
       <div id="RegisterPage_submit_button">
-        <button to='/home'>Enviar</button>
+        <Link to='/home'>
+        <button>Enviar</button>
+        </Link>
       </div>
-
-      <button to="/">Volver</button>
+    <Link to="/">
+      <button >◄••</button>
+      </Link>
     </div>
   );
 }

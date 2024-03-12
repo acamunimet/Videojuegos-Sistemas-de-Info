@@ -1,25 +1,38 @@
-import "../Estilos/Landing_Page.css"
-import {Link} from "react-router-dom";
+import "../Estilos/Landing_Page.css";
+import { Link } from "react-router-dom";
 
 export default function Landing_Page() {
   return (
-    <div>
+    <body  id='LandingPage'> 
+      <img
+        id="logoUnimet"
+        src="https://www.unimet.edu.ve/wp-content/uploads/2023/07/Logo-footer.png"
+      />
+
       <div id="TituloLandingPage">
-        <h1>¡¡Bienvenido!!</h1>
+        <h1>Bienvenido</h1>
       </div>
 
       <div id="seccion1_LandingPage">
-        <p>INFORMACION GENERAL DE LA PAGINA</p>
+        <p>
+          Bienvenido a Gameclub! Un sitio web donde puedes conocer a otras
+          personas que compartan tu pasion por los videojuegos y formar parte de
+          comunidades increibles que disfrutan tanto como tu el mundo del gaming
+        </p>
       </div>
 
       <div id="seccion2_LandingPage">
         <div>
-          <button to='/login'>Iniciar sesion</button>
+          <Link to="/login">
+            <button>Iniciar sesion</button>
+          </Link>
         </div>
         <div>
-          <button to='/register' >Registrarse</button>
+          <Link to="/register">
+            <button>Registrarse</button>
+          </Link>
         </div>
       </div>
-    </div>
+    </body>
   );
 }

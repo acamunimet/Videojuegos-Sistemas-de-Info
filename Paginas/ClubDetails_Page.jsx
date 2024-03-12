@@ -1,15 +1,24 @@
+import { Link } from "react-router-dom"
+
+
 export default function ClubDetails_Page(){
     return (
         <>
         <div>
             <h1>CLUB</h1>
-            <button to='/home'>Volver</button>
+            <Link to='/home'>
+            <button >Volver</button>
+            </Link>
         </div>
         <div>
-            <button to='/profile'>Perfil</button>
+        <Link to='/profile'>
+            <button >Perfil</button>
+            </Link>
         </div>
         <div>
-            <button to='/games'>Juegos</button>
+        <Link to='/games'>
+            <button >Juegos</button>
+            </Link>
         </div>
         </>
     )

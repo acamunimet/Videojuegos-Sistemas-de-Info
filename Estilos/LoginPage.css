@@ -1,17 +1,43 @@
 #TituloLoginPage {
     display: flex;
     justify-content: center;
+
+}
+
+#TituloLoginPage h1 {
+    background-color: #085f08;
+    margin:0px;
+    margin-top: 40px;
+    padding:20px 40px 20px 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: white;
 }
 
 #seccion1_LoginPage-form {
     display: flex;
     justify-content: space-around;
-    margin: 40px;
+    background: linear-gradient(to bottom, #085f08, #000000) ;
 }
 
+
 #LoginPage_submit_button {
-    display: flex;
+    display: grid;
     justify-content: center;
+    
 }
+#LoginPage button {
+    background-color: #000000;
+    color: white;
+    margin-top: 40px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+
 
 

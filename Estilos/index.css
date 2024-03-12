@@ -1,1 +1,55 @@
 
+body {
+    margin: 0;
+    background-color: #000000fe;
+}
+
+#InputField {
+    display: grid;
+    margin-bottom: 20px;
+    
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+button {
+    transition: 0.07s ease-in-out;
+    border-color: white;
+}
+
+button:hover {
+    transform: scale(1.01);
+}
+
+#InputField input {
+    background-color: black;
+    color: gray;
+    border-radius: 30px;
+    border: 7px solid black;
+    box-shadow: 0 4px 10px rgb(99, 96, 96) ;
+}
+
+#InputField label {
+    color: rgb(181, 175, 175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+
+/* div {
+    border:1px solid red;
+}
+h1 {
+    border:1px solid red;
+    color: white;
+}
+button {
+    border:1px solid red;
+}
+section {
+    border:1px solid red;
+}
+ */

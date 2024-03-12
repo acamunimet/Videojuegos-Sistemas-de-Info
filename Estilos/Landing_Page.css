@@ -1,17 +1,78 @@
 
 
 #TituloLandingPage {
+    margin: 0;
     display: flex;
     justify-content: center;
+    background: linear-gradient(to bottom, #07710e, #044407);
+    
 }
+
+
+
+#logoUnimet{
+    margin: 0px;
+    width: 160px;
+   height: 60px;
+   background-color: white;
+   padding: 20px;
+  border-bottom-right-radius: 30px ;
+  box-shadow: 0 4px 16px gray;
+}
+
+#TituloLandingPage h1 {
+    background-color: black;
+    color: white;
+    padding: 30px ;
+    margin: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: #045708;
+    box-shadow: 0 5px 16px rgb(30, 59, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#LandingPage button {
+    margin-top: 40px ;
+    transition: 0.09s ease-in-out;
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    border-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
 
 
 #seccion1_LandingPage {
     display: flex;
     justify-content: center;
+    background: linear-gradient(to bottom,#044407,#062c03fe );
+    
+
+
+}
+
+#seccion1_LandingPage p {
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-left:30% ;
+    margin-right:30% ;
+    background-color: black;
+    padding:20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+
 }
 
 #seccion2_LandingPage {
     display: flex;
     justify-content: space-around;
+    background: linear-gradient(to bottom, #062c03fe, #000000 );
 }
